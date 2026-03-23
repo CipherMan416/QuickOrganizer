@@ -1,40 +1,40 @@
 # QuickOrganizer 🎒
 
-一个智能背包整理 Mod，一键整理你的 Minecraft 背包！
+A smart inventory sorting mod for Minecraft — sort your entire inventory with one keypress!
 
-## ✨ 功能
+## ✨ Features
 
-- **一键整理**：按 `R` 键快速整理背包
-- **智能排序**：物品按名称自动排序
-- **自动堆叠**：相同物品自动堆叠在一起
-- **轻量级**：基于 Fabric，性能友好
+- **One-Click Sort**: Press `R` to instantly organize your inventory
+- **Smart Sorting**: Items are sorted alphabetically by name
+- **Auto-Stacking**: Identical items stack together automatically
+- **Lightweight**: Built on Fabric, minimal performance impact
 
-## 📦 安装
+## 📦 Installation
 
-1. 安装 [Fabric Loader](https://fabricmc.net/use/)
-2. 安装 [Fabric API](https://modrinth.com/mod/fabric-api)
-3. 下载 `quickorganizer-x.x.x.jar`
-4. 将 jar 文件放入 `.minecraft/mods/` 文件夹
+1. Install [Fabric Loader](https://fabricmc.net/use/)
+2. Install [Fabric API](https://modrinth.com/mod/fabric-api)
+3. Download `quickorganizer-x.x.x.jar`
+4. Place the jar file in your `.minecraft/mods/` folder
 
-## 🎮 使用
+## 🎮 Usage
 
-- 打开背包，按 `R` 键整理
-- 可在控制设置中修改按键绑定
+- Open your inventory, press `R` to sort
+- Keybind can be reconfigured in the controls settings
 
-## 🛠️ 构建
+## 🛠️ Building
 
 ```bash
 ./gradlew build
 ```
 
-构建产物在 `build/libs/` 目录
+Build output is in `build/libs/`
 
-## 📄 许可证
+## 📄 License
 
 MIT License
 
 ---
 
-**作者**: CipherMan  
+**Author**: CipherMan  
 **GitHub**: https://github.com/CipherMan416/QuickOrganizer  
-**Modrinth**: 即将发布
+**Modrinth**: Coming soon
