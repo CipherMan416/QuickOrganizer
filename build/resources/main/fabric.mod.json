@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "quickorganizer",
+  "version": "1.0.0",
+  "name": "QuickOrganizer",
+  "description": "A smart inventory organizer mod for Minecraft Fabric - Sort your inventory with a single key press!",
+  "authors": [
+    "CipherMan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CipherMan416/QuickOrganizer",
+    "sources": "https://github.com/CipherMan416/QuickOrganizer"
+  },
+  "license": "MIT",
+  "icon": "assets/quickorganizer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cipherman.quickorganizer.QuickOrganizerMod"
+    ],
+    "client": [
+      "com.cipherman.quickorganizer.QuickOrganizerClient"
+    ]
+  },
+  "mixins": [
+    "quickorganizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
